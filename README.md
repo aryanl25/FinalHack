@@ -35,5 +35,5 @@ Navigation:-
 a) run the codes/open the files in a web browser to use the chatbot at the bottom right :-  default.html ; about-hospital.html ; about-us.html ; accreditions.html ;
    associates.html (All the remaining files are supporting files to run the demo deenanath website so make sure to download all) 
 NOTE:- IF THE BOT ICON DOESN'T RESPOND SCROLL ALL THE WAY TO THE BOTTOM OF THE WEBPAGE AND THEN TRY CLICKING THE ICON
-d) Medical AI Chatbot is our powerpoint presentation be sure to check it out.
-e) We have also made a video of how the bot work, :- search for the file VideoCompressorResizeCompressVideo2023_09_18_07_16_12.mp4
+b) Medical AI Chatbot is our powerpoint presentation be sure to check it out.
+c) We have also made a video of how the bot work, :- search for the file VideoCompressorResizeCompressVideo2023_09_18_07_16_12.mp4
