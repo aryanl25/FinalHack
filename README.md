@@ -32,10 +32,8 @@ Our team participated in a hackathon with the challenge of creating a functional
 
 12. We view this project as extending beyond the scope of a hackathon and into the realm of business and practical development. We have created a fully functional and ready-to-integrate solution that could be seamlessly integrated into the live website of Deenanath Mangeshkar Hospital or similar institutions, offering significant potential for real-world application and benefit.
 Navigation:-
-a) run the codes/open the files in aweb browser to use the chatbot at the bottom right :-  default.html ; about-hospital.html ; about-us.html ; accreditions.html ;
+a) run the codes/open the files in a web browser to use the chatbot at the bottom right :-  default.html ; about-hospital.html ; about-us.html ; accreditions.html ;
    associates.html (All the remaining files are supporting files to run the demo deenanath website so make sure to download all) 
 NOTE:- IF THE BOT ICON DOESN'T RESPOND SCROLL ALL THE WAY TO THE BOTTOM OF THE WEBPAGE AND THEN TRY CLICKING THE ICON
-b) We also made a simple website and integrated Deenu on it, the files for accessing it is :- expindex.html ; expscript.js ; expstyles.css
-c)We also made a program in python that is a self learning chatbot, under the files:- knowledge_base.json ; main.py
 d) Medical AI Chatbot is our powerpoint presentation be sure to check it out.
 e) We have also made a video of how the bot work, :- search for the file VideoCompressorResizeCompressVideo2023_09_18_07_16_12.mp4
