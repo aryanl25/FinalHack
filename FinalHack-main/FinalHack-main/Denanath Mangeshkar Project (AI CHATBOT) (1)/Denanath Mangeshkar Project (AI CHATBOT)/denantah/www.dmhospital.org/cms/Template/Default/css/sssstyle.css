@@ -1,0 +1,606 @@
+
+.width90Per
+{
+    width:90% !important;
+}
+
+.padding-bot30 {
+    padding-bottom: 30px;
+}
+
+.contain-wrapp {
+    display: block;
+    position: relative;
+    padding: 60px 0 10px 0;
+    z-index: 1100;
+}
+
+.contain-wrapp {
+    width: 100%;
+}
+
+.column-active
+{
+    background-color: #15bba4;
+    padding: 40px 30px !important;
+    margin-top: 0 !important;
+}
+
+.col-icon.column-active:before, .col-icon.column-active h5:before, .icon-col-3.icon-col-active:before, .icon-col-3.icon-col-active:after, .img-caption:after {
+    border-bottom-color: #106357;
+}
+
+.col-icon.column-active:before, .col-icon.column-active h5:before {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-bottom: 10px solid;
+    border-left: 10px solid transparent;
+    top: 0;
+    left: -10px;
+    color: #000;
+}
+
+.col-icon.column-active:after, .col-icon.column-active h5:after, .icon-col-3.icon-col-active .icon-box-content:before, .icon-col-3.icon-col-active .icon-box-content:after, .custom-form {
+    border-top-color: #106357;
+}
+
+.col-icon.column-active:after, .col-icon.column-active h5:after, .icon-col-3.icon-col-active .icon-box-content:before, .icon-col-3.icon-col-active .icon-box-content:after, .custom-form {
+    border-top-color: #106357;
+}
+.col-icon.column-active:after, .col-icon.column-active h5:after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 10px solid;
+    border-left: 10px solid transparent;
+    left: -10px;
+    bottom: 0;
+    color: #000;
+}
+
+.col-icon.bg1 {
+    background: #3b3e4e;
+}
+
+.col-icon.column-5 {
+    float: left;
+    /*width: 14.2%;*/
+    width: 11%;
+}
+
+.col-icon {
+    position: relative;
+    float: left;
+    width: 100%;
+    margin: 10px 0 40px 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+
+.col-icon.column-active:before, .col-icon.column-active h5:before, .icon-col-3.icon-col-active:before, .icon-col-3.icon-col-active:after, .img-caption:after {
+    border-bottom-color: #106357;
+}
+
+.col-icon.column-active h5:before {
+    border-left: none;
+    border-bottom: 10px solid;
+    border-right: 10px solid transparent;
+    left: auto;
+    right: -10px;
+}
+
+.col-icon.column-active:after, .col-icon.column-active h5:after, .icon-col-3.icon-col-active .icon-box-content:before, .icon-col-3.icon-col-active .icon-box-content:after, .custom-form {
+    border-top-color: #106357;
+}
+
+.col-icon.column-active h5:after {
+    border-top: 10px solid;
+    border-right: 10px solid transparent;
+    border-left: none;
+    left: auto;
+    right: -10px;
+}
+
+.margin-mintop110 {
+    margin-top: -110px;
+    z-index: 4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 10px 0;
+    font-family: inherit;
+    font-weight: normal;
+    line-height: normal;
+    color: inherit;
+    text-rendering: optimizelegibility;
+    color: rgb(49, 86, 163);
+    font-family: oswaldbook;
+}
+
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+    font-weight: normal;
+    /*line-height: 1;*/
+    color: #999;
+}
+
+h1, h2, h3 {
+    /* line-height: 40px
+    */
+}
+
+h1 {
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    /*font-size: 17px;*/
+    /*font-size: 14px;*/
+    font-size: 15px;
+}
+
+h4 {
+    font-size: 15px;
+}
+
+h5 {
+    font-size: 13px;
+}
+
+h6 {
+    font-size: 11px;
+}
+
+h1 small {
+    font-size: 10.5px;
+    float: left;
+}
+
+h1 .flRt {
+    font-size: 10.5px;
+    float: right;
+}
+
+h1 .flRt a {
+    font-size: 10.5px;
+    float: right;
+    color: #999;
+    font-weight: normal;
+}
+
+
+h1 small a {
+    float: right;
+    font-size: 10.5px;
+}
+
+h2 small {
+    font-size: 17.5px;
+}
+
+h3 small {
+    font-size: 14px;
+}
+
+h4 small {
+    font-size: 14px;
+}
+
+h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
+    font-weight: 400;
+}
+
+.primary-bg h1, .primary-bg h2, .primary-bg h3, .primary-bg h4, .primary-bg h5, .primary-bg h6, .col-icon h1, .col-icon h2, .col-icon h3, .col-icon h4, .col-icon h5, .col-icon h6, .container-icons .icon-col-3 h1, .container-icons .icon-col-3 h2, .container-icons .icon-col-3 h3, .container-icons .icon-col-3 h4, .container-icons .icon-col-3 h5, .container-icons .icon-col-3 h6, .parallax h1, .parallax h2, .parallax h3, .parallax h4, .parallax h5, .parallax h6, .pricing-2column-wrapp .pricing-2-column h1, .pricing-2column-wrapp .pricing-2-column h2, .pricing-2column-wrapp .pricing-2-column h3, .pricing-2column-wrapp .pricing-2-column h4, .pricing-2column-wrapp .pricing-2-column h5, .pricing-2column-wrapp .pricing-2-column h6, .process-puzzle li h1, .process-puzzle li h2, .process-puzzle li h3, .process-puzzle li h4, .process-puzzle li h5, .process-puzzle li h6, .inverse-container h1, .inverse-container h2, .inverse-container h3, .inverse-container h4, .inverse-container h5, .inverse-container h6, .custom-form h1, .custom-form h2, .custom-form h3, .custom-form h4, .custom-form h5, .custom-form h6, .custom-form
+{
+    color: #fff;
+}
+h5 {
+    font-size: 16px;
+    line-height: 28px;
+}
+h1, h2, h3, h4, h5, h6 {
+    /*font-weight: 700;*/
+    font-weight:500;
+    
+    color: #333;
+    margin: 0 0 15px 0;
+    /*letter-spacing: 1px;*/
+    letter-spacing: 0px;
+    
+}
+
+.btn.btn-default:hover, .btn.btn-default:focus, .btn.btn-default:active {
+    background-color: #181f26;
+    /*background-color:#15bba4;*/
+    border-color: #181f26;
+}
+
+
+.btn.btn-default {
+    color: #fff;
+    background-color: #2a343f;
+    border-color: #2a343f;
+    height: 20px !important;
+    line-height: 20px !important;
+    display: inline-block;
+    width: auto;
+    
+    /*margin-left: 34px;*/
+    
+    /* margin-top: -216px;*/
+}
+
+.btn.btn-defaultabout {
+    color: #fff;
+    background-color: #2a343f;
+    border-color: #2a343f;
+    height: 20px !important;
+    line-height: 20px !important;
+    display: inline-block;
+    width: auto;
+    /* margin-left: 34px; */
+    /* margin-top: -216px; */
+}
+
+.btn-default:hover {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+.btn.focus, .btn:focus, .btn:hover {
+    /*color: #333;*/
+    color:white;
+    text-decoration: none;
+}
+
+.col-icon:hover .fa {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
+.col-icon .fa {
+    margin-bottom: 10px;
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+}
+
+.fa-5x {
+    font-size: 32px;
+}
+
+.fa-5x {
+ /* font-size: 5em;*/
+ font-size: 3em;
+}
+
+/*.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 32px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    }*/
+
+    .col-md-offset-2 {
+        margin-left: 16.66666667%;
+    }
+
+    .margintop10 {
+        margin-top: 10px;
+
+        margin-left: 5px
+    }
+
+    .section-heading {
+        position: relative;
+        display: block;
+        font-size: 16px;
+        line-height: 32px;
+        color: #484848;
+        font-size: 36px;
+        line-height: 48px;
+        font-weight: 300;
+        margin-bottom: 40px;
+    }
+
+    .text-center {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-heading h1, .section-heading h2, .section-heading h3, .section-heading h4, .section-heading h5, .section-heading h6 {
+        position: relative;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+        font-size: 22px;
+    }
+
+    .section-heading {
+        position: relative;
+        display: block;
+        font-size: 16px;
+        line-height: 32px;
+        color: #484848;
+        font-size: 36px;
+        line-height: 48px;
+        font-weight: 300;
+        margin-bottom: 40px;
+    }
+
+    .section-heading p
+    {
+        /*font-size:18px;*/
+        /*font-size:14px;*/
+
+        /*New CSS ADD*/
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 400;
+        color: #858585;
+        margin:0 10% 0 10%;
+        
+    }
+
+    .section-heading.text-center h1:before, .section-heading.text-center h2:before, .section-heading.text-center h3:before, .section-heading.text-center h4:before, .section-heading.text-center h5:before, .section-heading.text-center h6:before {
+        left: 50%;
+        margin-left: -60px;
+    }
+
+    .section-heading.text-center h1:after, .section-heading.text-center h2:after, .section-heading.text-center h3:after, .section-heading.text-center h4:after, .section-heading.text-center h5:after, .section-heading.text-center h6:after {
+        left: 50%;
+        margin-left: -20px;
+    }
+
+    .section-heading h1:before, .section-heading h2:before, .section-heading h3:before, .section-heading h4:before, .section-heading h5:before, .section-heading h6:before {
+        content: '';
+        position: absolute;
+        width: 120px;
+        height: 3px;
+        display: block;
+        background: #565656;
+        bottom: 0;
+        left: 0;
+    }
+
+    .primary-bg, .object, .attr-nav > ul > li > a span.badge, ul.cart-list > li.total > .btn-checkout, nav.navbar.bootsnav .share ul > li > a:hover, nav.navbar.bootsnav .share ul > li > a:focus, nav.navbar.bootsnav .share ul > li > a:active, .toTop:hover, .btn.btn-link:before, .btn.btn-primary, .icon-primary, .drop-circle.drop-primary, .drop-square.drop-primary, .panel-group .panel.panel-flat.on .panel-heading .panel-title a, .panel-group .panel.panel-flat .panel-heading .panel-title a:hover, .panel-group .panel.panel-flat .panel-heading .panel-title a:focus, .panel-group .panel.panel-flat .panel-heading .panel-title a:active, .panel-group .panel.on.panel-linner .panel-heading .panel-title a:before, .panel-group .panel.on.panel-linner .panel-heading .panel-title a:hover:before, .panel-group .panel.on.panel-linner .panel-heading .panel-title a:focus:before, .panel-group .panel.on.panel-linner .panel-heading .panel-title a:active:before, .panel-group .panel.panel-linner .panel-heading .panel-title a:hover:before, .panel-group .panel.panel-linner .panel-heading .panel-title a:focus:before, .panel-group .panel.panel-linner .panel-heading .panel-title a:active:before, .custom-tabs ul.nav > li > a:hover, .custom-tabs ul.nav > li.active > a, .custom-tabs.tabs-icon ul.nav > li.active > a, .custom-tabs.tabs-icon ul.nav > li:hover > a:after, .inputfile-1:focus + label, .inputfile-1.has-focus + label, .inputfile-1 + label:hover, .inputfile-icon:focus + label span.figure, .inputfile-icon.has-focus + label span.figure, .inputfile-icon + label:hover span.figure, .inputfile-default:focus + label, .inputfile-default.has-focus + label, .inputfile-default + label:hover, .inputfile-icon:focus + label span.figure, .inputfile-icon.has-focus + label span.figure, .inputfile-icon + label:hover span.figure, .checkator_source:checked+.checkator_element:after, .irs-bar, .irs-bar-edge, .irs-from, .irs-to, .irs-single, .product-label, .jcf-scrollbar-vertical .jcf-scrollbar-handle:hover, .jcf-scrollbar-vertical .jcf-scrollbar-handle:focus, .jcf-scrollbar-vertical .jcf-scrollbar-handle:active, .jcf-scrollbar-vertical .jcf-scrollbar-dec:hover, .jcf-scrollbar-vertical .jcf-scrollbar-inc:hover, .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default, .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current, .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box >div >div.xdsoft_current, .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_highlighted_mint, .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_highlighted_default, .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_today, .xdsoft_datetimepicker .xdsoft_calendar td:hover, .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box >div >div:hover, .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current.xdsoft_disabled:hover, .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box>div>div.xdsoft_current.xdsoft_disabled:hover, .xdsoft_datetimepicker .xdsoft_label > .xdsoft_select > div > .xdsoft_option.xdsoft_current, .xdsoft_datetimepicker .xdsoft_label > .xdsoft_select > div > .xdsoft_option:hover, .text-icon-box span.number, .page-heading h1:after, .page-heading h2:after, .page-heading h3:after, .page-heading h4:after, .page-heading h5:after, .page-heading h1:after, .section-heading.single-heading:before, .col-icon.column-active, .icon-col-3.icon-col-active, .testimoni-wrapp.top-quote span.quotes, .testimoni-timeline .testimoni-timeline-col .testimoni-timeline-content.primary .testimoni-time:before, .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span, .pricing-item.pricing-column.active .pricing-icon .fa, .pricing-item.pricing-column.active .pricing-price, .progress .progress-bar, .section-heading h1:after, .section-heading h2:after, .section-heading h3:after, .section-heading h4:after, .section-heading h5:after, .section-heading h6:after, .img-caption.dark-frame .caption-content .linker:hover, .img-caption.dark-frame .caption-content .zoomer:hover, div.pp_default .pp_close:hover, div.pp_default .pp_expand:hover, div.pp_default .pp_contract:hover, .pricing-item.active .pricing-price, .date-label, .filter-items li a.active, .filter-items li a.active:hover, .filter-items li a.active:focus, .filter-items li a.active:active, .rev_slider_wrapper:hover .hephaistos.tparrows:hover, .hephaistos .tp-bullet:hover, .hephaistos .tp-bullet.selected, .process-puzzle li .puzzle-content.primary-bg:after, .show-caption, .video-wrapper .play-icon:hover a, .img-wrapper .play-icon:hover a, .news-video .play-icon:hover a, .Bgtransparent-default .fa, .team-column-wrapp .team-content h1:after, .team-column-wrapp .team-content h2:after, .team-column-wrapp .team-content h3:after, .team-column-wrapp .team-content h4:after, .team-column-wrapp .team-content h5:after, .team-column-wrapp .team-content h6:after, .team-content .icon-circle:hover, .fullwidth-column.owl-theme .owl-nav [class*='owl-prev']:hover, .fullwidth-column.owl-theme .owl-nav [class*='owl-next']:hover, .process-image-list li .process-content span.number, .hebe .tp-bullet:hover:before, .hebe .tp-bullet.selected:before, .page-title-wrapp.page-title .single-network .icon-circle:hover, .custom-form, .irs-bar, .irs-bar-edge, .irs-from, .irs-to, .irs-single, .thumbnail.content-center .content, .classes-wrapp .classes-content .price span, .classes-content .price, .owl-theme.nav-topright .owl-nav [class*='owl-']:hover, .contain-wrapp.cv-wrapp .cv-content h1.title:before, .contain-wrapp.cv-wrapp .cv-content h2.title:before, .contain-wrapp.cv-wrapp .cv-content h3.title:before, .contain-wrapp.cv-wrapp .cv-content h4.title:before, .contain-wrapp.cv-wrapp .cv-content h5.title:before, .contain-wrapp.cv-wrapp .cv-content h6.title:before, .widget.boxed.categories .widget-head, .widget-head:after, .article-head:after, .product-caption a.addcart:hover, .product-caption a.addcart:focus, .product-caption a.addcart:active, .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus, .grider a.active, .product-desc .price span, .flexslider-thumbnails .flex-direction-nav a:hover, .flexslider-photo .flex-direction-nav a:hover, .styled-table thead th, .styled-table thead td, .product-caption .add-cart:hover, .product-caption .add-cart:focus, .product-caption .add-cart:active, .product-caption .view-detail:hover, .product-caption .view-detail:focus, .product-caption .view-detail:active, .basket-shopping, .meta-caption li a:hover, .meta-caption li a:focus, .meta-caption li a:active, footer .widget .single-network .icon-circle:hover
+    {
+        background-color: #15bba4;
+    }
+
+    .section-heading h1:after, .section-heading h2:after, .section-heading h3:after, .section-heading h4:after, .section-heading h5:after, .section-heading h6:after {
+        content: '';
+        position: absolute;
+        width: 40px;
+        height: 5px;
+        display: block;
+        bottom: -1px;
+        left: 0;
+    }
+
+    .horizontal_jcarousellite
+    {	
+       height:240px;
+       width:93% !important;
+       z-index: 0 !important;
+       overflow: hidden;
+       margin: 0px 45px;
+       
+   }
+.horizontal_jcarousellite li{/* height: 350px; */}
+.doctors_heading{    font-size: 40px;    color: #a53692;    margin-bottom: 30px;
+    font-family: 'quicksandlight';
+    font-weight: bold; text-align: center; 
+}
+.horizontal_jcarousellite .doctors_box{
+    text-align: center;
+    position: relative;
+    display: block;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    
+    height: 340px;
+    overflow: hidden;
+}
+.horizontal_jcarousellite .doctors_photo{
+    height: 281px;
+    overflow: hidden;
+}
+.horizontal_jcarousellite .doctors_photo a{}
+.horizontal_jcarousellite .doctors_photo a img{
+    border-radius: 0px 0px 0 0;
+    width: 100%;
+    /* border-bottom: 3px solid; */
+}
+.horizontal_jcarousellite .doctors_title{
+    /* padding-top: 6px; */
+    background: #ffffff;
+    color: #000;
+    height: 20px;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+.horizontal_jcarousellite .doctors_title a{
+    font-size: 16px;
+    /* margin-top: 5px; */
+    color: #15bba4;
+    text-transform: capitalize;
+    
+}
+.horizontal_jcarousellite .span3{margin-left: 0px !important;}
+.horizontal_jcarousellite .doctors_speciality{
+    background: #ffffff;
+    color: #000;
+    padding-bottom: 5px;
+}
+.horizontal_jcarousellite .read_more{
+    display: none;
+}
+.horizontal_jcarousellite .read_more a{}
+.all_doctors{
+    text-align: center;
+    /*margin: 25px auto 20px auto;*/
+    margin: -75px auto 20px auto;
+}
+
+.all_doctors a{ color: #fff;display: block; }
+.all_doctors a:hover{ color: #fff;     }
+
+.doctors_HScroller_control
+{
+ margin: 0 10%;
+ /*margin: 0 15%;*/
+ position:relative;
+}	
+
+.doctors_HScroller_control #horizontal_prev
+{
+    left: -7% !important;
+}
+
+.doctors_HScroller_control #horizontal_next
+{
+    /*right: -1% !important;*/
+    right: -5% !important;
+}
+
+.doctors_HScroller_control .horizontal_jcarousellite li
+{
+    margin-right:19px !important;
+}
+
+.btn-primary
+{
+    background-image: linear-gradient(to bottom, #15bba4, #15bba4) !important;
+    /*height: 20px;*/
+    line-height: 20px;
+    /* line-height: 10px;*/
+    display: inline-block;
+}
+
+
+
+@media (max-width:1120px) {
+
+    .horizontal_jcarousellite {
+     margin: 0px 0px;
+ }
+ .section-heading p {
+    margin: 10px;
+}
+.contain-wrapp {
+ padding: 0px;
+}
+.col-icon.column-5 {
+    float: left;
+    width: 15%;
+}
+.col-icon {
+    padding: 7px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 14px;
+}
+.margin-mintop110 {
+    margin-top: -10px;
+    z-index: 4;
+    margin-left: 19px;
+}
+.column-active {
+
+    padding: 17px 19px !important;
+    margin-top: 0 !important;
+}
+.col-icon .fa {
+    margin-left: 7px;
+}
+h5 {
+    font-size: 10px;
+    line-height: 15px;
+}
+.page-footer .row-fluid .span3 .widget h5
+{
+  font-size: 15px;
+}
+.contain-wrapp {
+    z-index: 100;
+}
+
+}
+
+@media (max-width: 768px) 
+{
+    .horizontal_jcarousellite {
+        width: 80% !important;
+        margin: 0px 14%;
+    }
+    .margin-mintop110 {
+        margin-top: -10px;
+        z-index: 4;
+        margin-left: 5px;
+    } 
+    .doctors_HScroller_control .horizontal_jcarousellite li 
+    {
+        /*margin-right: 16px !important;*/
+        margin: 0px 0px 0px -3px;
+    }
+    .doctors_HScroller_control #horizontal_prev {
+        /*left: 5% !important;*/
+        left: -1% !important;
+    }
+    .col-icon.column-5 {
+        float: left;
+        width: 14%;
+    }
+}
+
+@media (max-width: 479px)
+{
+    .horizontal_jcarousellite {
+      width: 68% !important;
+      margin: 0px 17%;
+  }
+  .margin-mintop110 {
+      margin-top: -10px;
+      z-index: 4;
+      margin-left: 0px;
+  }
+  
+  .adjustpadding {
+    padding-left: 3%;
+}
+
+.btn-primary {
+    line-height: 19px;
+    width: 57%;
+}
+.column-active {
+    padding: 16px 19px !important;
+    margin-top: 0 !important;
+}
+
+}
+
+
+

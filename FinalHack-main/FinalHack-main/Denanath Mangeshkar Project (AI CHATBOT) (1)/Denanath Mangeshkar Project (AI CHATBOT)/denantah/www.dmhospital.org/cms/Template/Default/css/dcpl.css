@@ -1,0 +1,566 @@
+@charset "utf-8";
+/* CSS Document */
+
+.header {
+    width: 980;
+    margin: 0 auto;
+}
+
+/*-----header---------*/
+.wrapper {
+    margin: 0 auto;
+    width: 980px;
+}
+
+.logo {
+    w idth:110px;
+    float: left;
+    he ight:110px;
+}
+
+.logo img {
+    width: 100%; /* height:108px; margin:10px;*/
+}
+
+.logoText {
+    float: left;
+    margin: 40px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-style: italic;
+    color: #06C;
+    line-height: 28px;
+}
+
+.logoText a:hover {
+    text-decoration: none;
+}
+
+.headerRight {
+    float: right;
+    margin: 40px 0;
+}
+
+.rtSearch {
+    float: right!important;
+    margin: 4% 0 0!important;
+    width: auto !important;
+}
+
+
+/**** Base styles ****/
+
+
+/**** Demos ****/
+
+/*#container {
+  background: none;
+  padding: 5px;
+  margin-bottom: 20px;
+
+  clear: both;
+
+}*/
+#container {
+    /* border: 1px solid #666;*/
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.centered {
+    margin: 0 auto;
+}
+
+.box {
+    margin: 5px 0;
+    padding: 1px;
+    border: none;
+    font-size: 11px;
+    line-height: 1.4em;
+    opacity: 1;
+}
+
+.box h2 {
+    color: #ffffff;
+    font-size: 15px !important;
+    margin: 0px 0px 10px;
+    font-family: "OswaldBold";
+}
+
+.box a {
+    text-decoration: none;
+    color: #06F;
+}
+
+.box a.more {
+    display: block;
+    margin: 5px 0;
+    float: left;
+    text-decoration: none;
+    color: #004172;
+}
+
+
+
+.box img, #tumblelog img {
+    display: block;
+    width: 100%;
+}
+
+.rtl .box {
+    float: right;
+    text-align: right;
+    direction: rtl;
+}
+
+
+
+.col1 {
+    width: 80px;
+}
+
+.col2 {
+    width: 198px;
+    padding: 10px;
+}
+
+.col3 {
+    width: 198px;
+    padding: 10px;
+}
+
+.col4 {
+    width: 380px;
+}
+
+.col5 {
+    width: 480px;
+}
+
+.col1 img {
+    max-width: 80px;
+}
+
+.col2 img {
+    max-width: 218px;
+}
+
+.col3 img {
+    max-width: 198px;
+}
+
+.col4 img {
+    max-width: 380px;
+}
+
+.col5 img {
+    max-width: 480px;
+}
+
+/**** Gutters ****/
+
+.has-gutters .box {
+    margin: 5px 0;
+}
+
+.has-gutters .col1 {
+    width: 90px;
+}
+
+.has-gutters .col2 {
+    width: 230px;
+}
+
+.has-gutters .col3 {
+    width: 238px;
+}
+
+.has-gutters .col4 {
+    width: 550px;
+}
+
+/**** Isotope Filtering ****/
+
+.isotope-item {
+    z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}
+
+/**** Isotope CSS3 transitions ****/
+
+.isotope, .isotope .isotope-item {
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -ms-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    -ms-transition-property: height, width;
+    -o-transition-property: height, width;
+    transition-property: height, width;
+}
+
+.isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    -ms-transition-property: -ms-transform, opacity;
+    -o-transition-property: -o-transform, opacity;
+    transition-property: transform, opacity;
+}
+
+/**** disabling Isotope CSS3 transitions ****/
+
+.isotope.no-transition, .isotope.no-transition .isotope-item, .isotope .isotope-item.no-transition {
+    -webkit-transition-duration: 0s;
+    -moz-transition-duration: 0s;
+    -ms-transition-duration: 0s;
+    -o-transition-duration: 0s;
+    transition-duration: 0s;
+}
+
+/* End: Recommended Isotope styles */
+
+
+
+/* disable CSS transitions for containers with infinite scrolling*/
+.isotope.infinite-scrolling {
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+
+/*----------*/
+#options {
+    /*padding-bottom: 1.0em;*/
+}
+
+
+#options ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#options ul ul {
+    margin-left: 1.5em;
+}
+
+#options li {
+    float: left;
+    margin: 1.3em 0 1em 2em;
+    padding: 0 0 22px 0;
+}
+
+#options li:hover {
+    background: url(https://www.dmhospital.org/cms/Template/Default/images/li_hover.png) center bottom no-repeat;
+    padding: 0 0 22px 0;
+}
+
+.active1 {
+    background: url(https://www.dmhospital.org/cms/Template/Default/images/li_hover.png) center bottom no-repeat!important;
+    padding: 0 0 22px 0;
+}
+
+
+
+#options li a {
+    background: url(https://www.dmhospital.org/cms/Template/Default/images/show-thumb.png) no-repeat scroll left 0.2em transparent;
+    display: block;
+    font-weight: bold;
+    outline: medium none;
+    padding: 0 1.5em;
+}
+
+#options li a:hover {
+    color: #FFBA04;
+    background: url(https://www.dmhospital.org/cms/Template/Default/images/show-thumb-act.png) no-repeat scroll left 0.2em transparent;
+    padding: 0 1.5em;
+    text-decoration: none!important;
+}
+
+#options li a:active {
+    color: #FFBA04;
+    background: url(https://www.dmhospital.org/cms/Template/Default/images/show-thumb-act.png) no-repeat scroll left 0.2em transparent;
+    padding: 0 1.5em;
+    text-decoration: none!important;
+}
+
+
+#options li a {
+    /* border-left:  1px solid hsla( 0, 0%, 100%, 0.3 );
+  border-right: 1px solid hsla( 0, 0%,   0%, 0.2 );*/
+}
+
+#options li:first-child a {
+    border-left: none;
+}
+
+#options li:last-child a {
+}
+
+#options li a.selected {
+    text-shadow: none;
+    color: #FFBA04;
+    background: url(https://www.dmhospital.org/cms/Template/Default/images/show-thumb-act.png) no-repeat scroll left 0.2em transparent;
+    padding: 0 1.5em;
+    text-decoration: none!important;
+}
+
+/* Combination filter options*/
+
+#options .option-combo {
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+    background: url(https://www.dmhospital.org/cms/Template/Default/images/combo_bg.jpg) left top repeat-x;
+    width: 100%;
+}
+
+#options .option-combo ul {
+    display: inline-block;
+}
+
+
+
+
+/**** Clearfix ****/
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    /*zoom: 1;*/
+}
+
+
+/*Internal Page CSS*/
+.pageFullContent {
+    float: left;
+    width: 99%;
+    background: #fff;
+    padding: 0.5em;
+    border: 1px solid #DBDBDB;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #333;
+    line-height: 20px;
+}
+
+.pageFullContent h1 {
+    font-size: 21px;
+    color: #065291;
+    line-height: 30px;
+    margin: 0 0 10px 0;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.bannerInn {
+    width: 695px;
+    height: 110px;
+    background: none;
+}
+
+.tagline {
+    width: 100%;
+    float: left;
+    border-bottom: 1px dotted #9E9E9E;
+    heig t:30px;
+    margin: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #333;
+    line-height: 20px;
+    font-style: italic;
+}
+
+.leftContent {
+    border-right: 1px dotted #DBDBDB;
+    float: left;
+    margin: 0;
+    padding: 0 1em 0 0.5em;
+    width: 75%;
+}
+
+.rightContent {
+    float: left;
+    padding: 1em;
+    width: 20.5%;
+}
+
+.rightContent .imgDiv {
+    text-align: center;
+    clear: both;
+    color: #06C!important;
+    font-style: italic;
+}
+
+.rightContent span {
+    float: left;
+    clear: both;
+    margin: 10px 0;
+    text-align: center;
+    color: #06C!important;
+    margin: 0.5em 0;
+}
+
+.rightContent .imgDiv img {
+    clear: both;
+    border: 5px solid #3F7AAB;
+}
+
+.date {
+    font-size: 1em;
+    float: left;
+    display: block;
+    margin: 0 0 0.5em 0;
+    color: #AA8C46;
+    clear: both;
+}
+
+.textual {
+    float: left;
+    display: block;
+    margin:;
+}
+
+.showNew {
+    background: url(https://www.dmhospital.org/cms/Template/Default/images/show.jpg) left top no-repeat;
+    padding: 1em 2.5em !important;
+    float: left;
+}
+
+.topBar {
+    background: #E7E7E8;
+    padding: 0.0em;
+    margin: 0 0 0.5em 0;
+    font-size: 7px;
+}
+
+.clear {
+    clear: both;
+    height: 1px;
+    border: none;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+}
+
+.rightScript {
+    padding: 5%;
+    width: 99%;
+    back ground:#090;
+    margin: 5% 0 0 1%;
+}
+
+ul.enq {
+    float: right;
+    margin: 20px 0px 0px 0px;
+    padding: 0!important;
+}
+
+ul.enq li {
+    float: left;
+    list-style: none;
+    padding: 0 0.5em;
+}
+
+.topDiv {
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.imgDivNew {
+    width: 100%;
+    float: left;
+    height: auto;
+    margin: 0.5em 0;
+}
+
+.imgDivNew img {
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.powered_by {
+    float: right;
+    width: 50%;
+    text-align: right;
+    position: relative;
+    top: 32px;
+}
+
+.copy_right {
+    float: left;
+    width: 50%;
+    position: relative;
+    top: 32px;
+}
+
+.errorMsgContainer {
+    display: inline-block;
+    left: 0;
+    margin-left: .45em;
+    position: relative;
+    /* vertical-align: baseline; */
+    bottom: 0px;
+    width: 222px;
+}
+
+.errorMsgImg {
+    background: url("https://www.dmhospital.org/cms/Template/Default/images/reg_sprites_flat.png") no-repeat scroll 0 0 transparent;
+    display: inline-block;
+    height: 16px;
+    position: relative;
+    top: .2em;
+    width: 16px;
+    float: left;
+}
+
+.float_err_msg {
+    float: left;
+    padding: 3px 0 0 5px;
+    color: #B70000;
+    font-size: 11px;
+}
+
+.clear {
+    float: none;
+    clear: both;
+    margin: 0;
+    padding: 0;
+    height: 0;
+}
+
+.control_box h4 a {
+    color: #fff;
+}
+
+@media (max-width:1120px) 
+{
+    .clearfix {
+       /*margin: 10px;*/
+       margin-bottom: 0px;
+       }
+}

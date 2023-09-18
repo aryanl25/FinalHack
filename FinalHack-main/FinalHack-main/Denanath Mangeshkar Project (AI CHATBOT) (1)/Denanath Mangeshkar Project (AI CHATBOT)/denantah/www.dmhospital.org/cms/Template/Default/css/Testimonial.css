@@ -1,0 +1,262 @@
+/*slider*/
+.nav-slider{position:absolute;top:-80px;font-size:35px;font-family:Tahoma;text-decoration:none;font-weight:800;line-height:35px}
+.prew-slide{right:5px;margin-right:15px}
+.next-slide{right:5px}
+.sidebar-slide .nav-slider{top:-43px}
+ 
+/* Review */
+.review-slider{margin:0px;padding:25px}
+.review-slider .item{margin-bottom:100px}
+.blockquote-line{position:absolute;left:0px;top:0;width:100%;background:url(https://www.dmhospital.org/cms/Template/Default/images/15.png) no-repeat bottom left #ebeaea;-webkit-transition: 0.1s ease-in-out height;-moz-transition: 0.3s ease-in-out height;-ms-transition: 0.3s ease-in-out height;-o-transition: 0.3s ease-in-out height;transition: 0.3s ease-in-out height}
+.blockquote-pattern{width:100%;height:100%;background:url(https://www.dmhospital.org/cms/Template/Default/images/16.png) no-repeat bottom right; }
+.blockquote{padding-bottom:15px;border:0;font-size:15px;font-style:italic;line-height:1.6;margin:0;overflow:hidden;padding-top:15px;}
+.md{display:none;position:absolute;bottom:-90px}
+.client-pic{margin-left:25px}
+.md-name{position:absolute;top:10px;z-index:2;width:160px;left:70px;font-size:14px;font-weight:600}
+.md-name strong{color:#368ccc}
+.company-name{font-size:12px;padding-top:4px;clear:both;font-weight:300}	
+
+
+
+
+/* Testimonial Start */
+
+.author a
+{
+    color: #fff;
+    text-align: left;
+}
+.author a:hover
+{
+    text-decoration: underline;
+}
+.testimonial_container
+{
+    margin: 0 0 10px;
+    padding: 0 0 10px;
+    width: 100%;
+}
+.testimonial_container .innertestimonial_box
+{
+    overflow: hidden;
+    border-bottom: 1px solid #ececec;
+    padding-bottom: 12px;
+}
+.testimonial_container .testimonialtitle_bg
+{
+    margin: 0px 0px 5px 0px;
+    overflow: hidden;
+    padding: 0 7px 0 0;
+    width: auto;
+}
+.testimonial_container .icon
+{
+    float: left;
+    height: 26px;
+    margin: 11px 0 0;
+    width: 36px;
+}
+.testimonial_container .testimonial_author
+{
+    color: rgb(49, 86, 163);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    overflow: hidden;
+    padding: 0 0 0 10px;
+    width: 81.8%;
+    text-transform: capitalize;
+    float: left;
+    height: 30px;
+    font-family: oswaldbook;
+}
+.testimonial_container .testimonial_title
+{
+    color: #777;
+    height: auto;
+    font-size: 14px;
+    line-height: 20px;
+    overflow: hidden;
+    padding: 0px 0 0 10px;
+    width: 70.8%;
+    text-transform: capitalize;
+    float: left;
+    font-weight: bold;
+}
+.testimonial_container .date
+{
+width: auto !important;
+font-size: 12px;
+height: 17px;
+line-height: 17px;
+overflow: hidden;
+color: #757f83;
+float: right;
+padding: 0px 19px 0 20px;
+background: url(https://www.dmhospital.org/cms/Template/Default/img/date-bg-1.png) 0px 1px no-repeat;
+position: relative;
+top: 0px;
+left: 0px;
+right: 0px;
+clear: none;
+}
+.testimonial_container .photo
+{
+    border: solid 2px #4c4c4c;
+    float: left;
+    height: 60px;
+    margin: 5px 0 0 5px;
+    overflow: hidden;
+    width: 60px;
+    float: left;
+    -webkit-border-radius: 8px/7px 7px 8px 8px;
+    -moz-border-radius: 8px/7px 7px 8px 8px;
+    border-radius: 8px/7px 7px 8px 8px;
+    background-color: #91a4a6;
+    -webkit-box-shadow: 0 1px 1px rgba(3,3,3,.26), inset 0 0 0 1px #fff;
+    -moz-box-shadow: 0 1px 1px rgba(3,3,3,.26), inset 0 0 0 1px #fff;
+    box-shadow: 0 1px 1px rgba(3,3,3,.26), inset 0 0 0 1px #fff;
+    border: solid 1px #999;
+    background-image: -webkit-linear-gradient(bottom, #e7ebec, #fff);
+    background-image: -moz-linear-gradient(bottom, #e7ebec, #fff);
+    background-image: -o-linear-gradient(bottom, #e7ebec, #fff);
+    background-image: -ms-linear-gradient(bottom, #e7ebec, #fff);
+    background-image: linear-gradient(to top, #e7ebec, #fff);
+    padding: 0px;
+}
+.testimonial_container .photo img {
+width: 100%;
+height: 100%;
+border-radius: 8px;
+text-align: center;
+}
+.testimonial_container .min_height
+{
+    overflow: hidden;
+    padding: 5px 10px 0px 10px;
+    text-align: justify;
+    width: 90.5%;
+    float: left;
+    font-size: 13px;
+    color: #808080;
+    line-height: 24px;
+    font-style: normal;
+    margin: 0px 0px 0px 0px;
+    text-align: left;
+    height: 77px;
+    overflow: hidden;
+    padding: 0px 0px 0px 20px;
+}
+.testimonial_container .full_height
+{
+    overflow: hidden;
+    padding: 0px 0px 0px 20px;
+    text-align: justify;
+    width: 90.5%;
+    font-size: 13px;
+    color: #808080;
+    line-height: 24px;
+    font-style: normal;
+    margin: 0px 0px 0px 0px;
+    text-align: left;
+	min-height:77px;
+    float: left;
+}
+
+.testimonial_container .read_more
+{display: inline-block;
+height: 15px;
+font-size: 13px;
+line-height: 15px;
+color: #fff;
+padding: 5px 10px !important;
+border: none;
+cursor: pointer;
+text-shadow: 1px 1px 0 #000;
+background-color: #474747;
+white-space: nowrap;
+text-decoration: none;
+text-align: center;
+background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(255,255,255,.1)),to(rgba(0,0,0,0)));
+background-image: -webkit-linear-gradient(top,rgba(255,255,255,.1),rgba(0,0,0,0));
+background-image: -moz-linear-gradient(top,rgba(255,255,255,.1),rgba(0,0,0,0));
+background-image: -ms-linear-gradient(top,rgba(255,255,255,.1),rgba(0,0,0,0));
+background-image: -o-linear-gradient(top,rgba(255,255,255,.1),rgba(0,0,0,0));
+background-image: linear-gradient(top,rgba(255,255,255,.1),rgba(0,0,0,0));
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+float: right;
+font-weight: normal;
+text-transform: capitalize;
+margin-left:20px;
+}
+
+.testimonial_container .read_more a
+{
+    width: 77px;
+    height: 28px;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    display: block;
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+    float: right;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.testimonial_container .readmore a:hover
+{
+    color: #333;
+    text-decoration: none;
+}
+
+/*Testimonial End */
+
+
+/*----*****---- << Responsive >> ----*****----*/
+
+	/*----*****---- << Desktop >> ----*****----*/	
+	
+    /* Note: Design for a width of 768px, Gutter: 30px, Unit: 32px */
+
+    @media (max-width:1120px) {
+		.testimonial_container .min_height, .testimonial_container .full_height{ width: 89.5%;}
+	}
+	
+	/*----*****---- << Tablet (Portrait) >> ----*****----*/	
+	
+    /* Note: Design for a width of 768px, Gutter: 30px, Unit: 32px */
+
+    @media (max-width:959px) {
+		.testimonial_container .min_height, .testimonial_container .full_height {width: 87.5%;}
+	}
+		
+	/*----*****---- << Mobile (Landscape) >> ----*****----*/	
+	
+    /* Note: Design for a width of 480px */
+
+    @media (max-width: 767px) {
+		.testimonial_container .testimonial_title{ width: 67.8%;}
+		.testimonial_container .min_height, .testimonial_container .full_height {width: 78.5%;}
+	}
+	
+	/*----*****---- << Mobile >> ----*****----*/	
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media (max-width: 479px) {
+		.testimonial_container .testimonial_author{ width: 98.8%; padding:0px;}
+		.testimonial_container .testimonial_title {width: 98.8%; padding:0px; margin-bottom:5px;}
+		.testimonial_container .date{ float: left;}
+		.testimonial_container .photo{ margin:0px;}
+		.testimonial_container .min_height, .testimonial_container .full_height
+         {
+            /*width: 70.5%;*/
+            width: 94%;
+            padding-left: 10px;
+         }
+	}

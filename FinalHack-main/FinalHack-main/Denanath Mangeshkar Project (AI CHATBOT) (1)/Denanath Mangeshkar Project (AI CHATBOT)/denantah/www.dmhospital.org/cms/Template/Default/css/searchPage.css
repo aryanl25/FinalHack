@@ -1,0 +1,157 @@
+
+.search-form
+{
+    font-size: 14px;
+    line-height: 22px;
+    height: 100%;
+    position: relative;
+    padding: 0px 0px 0px 0px;
+    color: #2D3540;
+}
+.search-form span
+{
+    color: #2D3540;
+    font-style: normal;
+    font-size: 17px;
+    padding: 0px 0px 0px 0px;
+}
+.search-form span.search_lable
+{
+    color: #2D3540;
+    font-style: normal;
+    font-size: 17px;
+    padding: 0px 10px 0px 0px;
+	float:left;
+	line-height:32px;
+}
+.search-form .left_td
+{
+    width: 10%;
+    font-size: 17px;
+    font-weight: normal;
+    color: #2D3540;
+    text-transform: capitalize;
+    text-align: left;
+    padding: 0px 0px 0px 5px;
+    height: 40px;
+    line-height: 32px;
+   font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+.search-form .right_td
+{
+    height: 40px;
+}
+
+
+.site_search_box
+{
+    padding: 0px 0px 10px 0px;
+    outline: none;
+	float:left;
+	width:100%;
+}
+/*-------------Search Front grid table start----------------*/
+.search-form .front_grid_table
+{
+    border: none;
+    text-transform: none;
+    margin: 0px;
+	font-size:13px;
+	line-height:24px;
+	font-family: Arial, Helvetica, sans-serif;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://www.dmhospital.org/paystation/App_Themes/Default/images/distru_login_bg.png', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/paystation/App_Themes/Default/images/distru_login_bg.png', sizingMethod='scale')";
+	width:100%;
+	background: #EBEBEB;
+}
+.search-form .front_grid_table ul
+{
+    margin: 0px 0px 0px 30px;
+}
+.search-form .front_grid_table td
+{
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+	padding:5px 10px;
+}
+.search-form .front_grid_table a
+{
+    color: #007bc2;
+    font-weight: bold;
+    font-size: 14px;
+    outline: none;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.search-form .front_grid_table a:hover
+{
+    color: #333;
+    text-decoration: none;
+    outline: none;
+}
+.search-form .front_grid_table span
+{
+    color: #007bc2 !important;
+	font-weight:bold;
+}
+.search-form .front_grid_table .header_item_grid
+{
+    background: #8C8E8F;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    font-weight: bold !important;
+}
+.search-form .front_grid_table .alternating_item_grid
+{
+     background: #D5D8DA;
+    color: #000;
+    font-size: 13px;
+    text-align: left;
+    padding: 10px;
+}
+.search-form .front_grid_table .item__style_grid
+{
+    color: #000;
+    font-size: 13px;
+    text-align: left;
+    padding: 10px;
+}
+.front_grid_table .item__style_grid 
+{
+    border-bottom: 1px dashed #ADADAD;
+}
+.search-form .front_grid_table .footer_item_grid
+{
+    background: #8C8E8F;
+    color: #000;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    padding: 30px;
+    font-style: normal;
+}
+.search-form .footer_item_grid a
+{
+    color: #fff;
+    font-weight: bold;
+    outline: none;
+}
+.search-form .footer_item_grid a:hover
+{
+    color: #00598D;
+    text-decoration: underline;
+    outline: none;
+}
+
+#ctl00_ContentPlaceHolder1_panel1{position:relative; width:100%;}
+/*-------------Search Front grid table end----------------*/
+
+/*-------------Site Search page End----------------*/
